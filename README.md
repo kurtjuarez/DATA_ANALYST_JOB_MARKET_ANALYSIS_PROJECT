@@ -57,7 +57,7 @@ LIMIT 10
 **Key findings:**
 - SQL ranked first with 92,628 number of job postings.
 
-![Top 10 In-demand Skills](assets\query_1_img.png)
+![Top 10 In-demand Skills](./assets/query_1_img.png)
 
 *Bar graph shows the top 10 in-demand skills for data analysts; ChatGPT generated this bar graph from my SQL query results.*
 
@@ -85,7 +85,7 @@ LIMIT 10
 **Key findings:**
 - SVN ranked first with $400,000 average yearly salary.
 
-![Top 10 Highest Salary Skills](assets\query_2_img.png)
+![Top 10 Highest Salary Skills](./assets/query_2_img.png)
 
 *Bar graph shows the top 10 highest salary skills for data analysts; ChatGPT generated this bar graph from my SQL query results.*
 
@@ -111,7 +111,7 @@ LIMIT 10
 **Key findings:**
 - Database Administrator ranked first with $400,000 average yearly salary.
 
-![Top 10 Highest Salary Data Analyst Jobs](assets\query_3_img.png)
+![Top 10 Highest Salary Data Analyst Jobs](./assets/query_3_img.png)
 
 *Bar graph shows the top 10 highest-paying data analyst jobs; ChatGPT generated this bar graph from my SQL query results.*
 
@@ -139,10 +139,10 @@ ORDER BY avg_yearly_salary DESC -- Change to number_of_job_postings to make orde
 - Anywhere or basically remote jobs has the most offered opportunity by having the most number of job postings with 3,273. It is also included in the top 10 locations based on salary.
 
 **Top 10 Locations Based on Salary**
-![Top 10 Locations Based on Salary](assets\query_4_salary_img.png)
+![Top 10 Locations Based on Salary](./assets/query_4_salary_img.png)
 
 **Top 10 Locations Based on Number of Job Postings**
-![Top 10 Locations Based on Number of Job Postings](assets\query_4_postings_img.png)
+![Top 10 Locations Based on Number of Job Postings](./assets/query_4_postings_img.png)
 
 *Bar graphs show the top 10 locations based on salary and number of job postings; ChatGPT generated this bar graph from my SQL query results.*
 
@@ -193,7 +193,7 @@ LIMIT 10
 - SVN ranked first with 200,029 combined score. It still ranked first even though the skill only appeared in 58 data analyst job postings because of its high average yearly salary.
 
 **Top 10 Combined Demand and Salary Skills**
-![Top 10 Combined Demand and Salary Skills](assets\query_5_img.png)
+![Top 10 Combined Demand and Salary Skills](./assets/query_5_img.png)
 
 *Bar graph shows the top 10 combined demand and salary skills; ChatGPT generated this bar graph from my SQL query results.*
 
