@@ -13,4 +13,5 @@ WHERE
     salary_year_avg IS NOT NULL
 GROUP BY job_location
 HAVING COUNT(*) >= 100 -- Better to use a higher number of job postings to have a more meaningful insights
-ORDER BY avg_yearly_salary DESC
+ORDER BY number_of_job_postings DESC -- Change to number_of_job_postings to make order by number of job postings
+LIMIT 10
